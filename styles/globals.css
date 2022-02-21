@@ -2,3 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+	@apply font-alfa text-[72px]
+}
+h2 {
+	@apply font-alfa text-[56px]
+}
+h3 {
+	@apply font-alfa text-[40px]
+}
+h4 {
+	@apply font-dm text-[24px] font-bold
+}
+h5 {
+	@apply font-dm text-[20px] font-bold
+}
+label {
+	@apply font-dm text-[12px] font-bold
+}
+.Text_Big {
+	@apply font-dm text-[20px]
+}
+.Text {
+	@apply font-dm text-[16px]
+}
+.Text_Gray {
+	@apply font-dm text-[16px] text-black/50
+}
+.Text_Small {
+	@apply font-dm text-[12px]
+}
+
