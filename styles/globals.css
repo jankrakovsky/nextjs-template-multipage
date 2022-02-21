@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 h1 {
-	@apply font-alfa text-[72px]
+	@apply font-alfa text-[72px] leading-[80px]
 }
 h2 {
 	@apply font-alfa text-[56px]
@@ -31,5 +31,15 @@ label {
 }
 .Text_Small {
 	@apply font-dm text-[12px]
+}
+
+input {
+	@apply bg-white border-[1px] border-solid border-[#DADADA] box-border rounded-[3px] w-[270px] h-[48px] px-[16px] py-[13px]
+}
+input::placeholder {
+	@apply Text_Gray
+}
+button.Dark_Primary {
+	@apply w-[170px] h-[48px] bg-white text-black border-2 border-solid border-[#2B2B2B] box-border rounded-[3px]
 }
 
