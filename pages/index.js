@@ -8,7 +8,7 @@ export default function Home() {
 			<TwoColumns>
 				<div className="m-auto">
 					<h5 className="mb-[26px]">Delectus instructior</h5>
-					<h1 className="text-[56px] sm:text-[72px] leading-[60px] sm:leading-[80px]">Vide legimus <br />consectetuer</h1>
+					<h1>Vide legimus <br />consectetuer</h1>
 					<div className="EmailForm">
 						<input className="w-full sm:w-[270px] mt-[33px] mb-[16px]" type="email" name="emailInput" id="emailInput" placeholder="Email" />
 						<button className="Dark_Primary ml-0 sm:ml-[30px]" type="submit">Submit</button>

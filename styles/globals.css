@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 h1 {
-	@apply font-alfa text-[72px] leading-[80px]
+	@apply font-alfa text-[46px] sm:text-[72px] leading-[60px] sm:leading-[80px] transition-all
 }
 h2 {
 	@apply font-alfa text-[56px]
