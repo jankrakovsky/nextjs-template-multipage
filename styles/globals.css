@@ -24,7 +24,7 @@ label {
 	@apply font-dm text-[20px]
 }
 .Text {
-	@apply font-dm text-[16px]
+	@apply font-dm text-[16px] font-bold
 }
 .Text_Gray {
 	@apply font-dm text-[16px] text-black/50
