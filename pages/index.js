@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TwoColumns from "../cmpts/TwoColumns";
+import TwoColumns from "../components/TwoColumns";
 import marginaliaProductiveWork from "../src/img/marginalia-productive-work.svg";
 
 export default function Home() {
