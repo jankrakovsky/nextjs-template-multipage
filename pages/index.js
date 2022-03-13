@@ -1,10 +1,10 @@
 import Image from "next/image";
 import IconSquare from "../components/IconSquare";
 import TwoColumns from "../components/TwoColumns";
-import marginaliaProductiveWork from "../public/img/marginalia-productive-work.svg";
-import stocks from "../public/img/stocks.svg";
-import bag from "../public/img/bag.svg";
-import docs from "../public/img/docs.svg";
+import marginaliaProductiveWork from "../public/img/marginalia/marginalia-productive-work.svg";
+import stocks from "../public/img/icons/stocks.svg";
+import bag from "../public/img/icons/bag.svg";
+import docs from "../public/img/icons/docs.svg";
 
 export default function Home() {
 	return (
