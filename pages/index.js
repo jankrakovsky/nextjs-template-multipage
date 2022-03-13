@@ -9,7 +9,7 @@ import docs from "../public/img/icons/docs.svg";
 export default function Home() {
 	return (
 		<div className="Home">
-			<div className="Home-start h-screen bg-primary-flamingo text-white">
+			<div className="Home-start min-h-[900px] h-screen bg-primary-flamingo text-white">
 				<TwoColumns>
 					<div className="m-auto">
 						<h5 className="mb-[26px]">Delectus instructior</h5>
@@ -22,7 +22,8 @@ export default function Home() {
 					<Image src={marginaliaProductiveWork} alt="" />
 				</TwoColumns>
 			</div>
-			<div className="Home-features h-screen bg-white grid content-center">
+
+			<div className="Home-features min-h-[900px] h-screen bg-white grid content-center">
 				<div className="m-auto w-min text-center">
 					<h5 className=" text-primary-red">Nominavi suavitate</h5>
 					<h2 className="w-max">Offendit persecuti</h2>
@@ -33,7 +34,6 @@ export default function Home() {
 					<IconSquare num="02" img={bag} title="Vivendo" text="Assum ubique quodsi sea ad partem vocent vel, ius id viris utinam" />
 					<IconSquare num="03" img={docs} title="Deterruisset" text="Nam natum volutpat eu natum elitr vel te id qui purto dicit" />
 				</div>
-
 			</div>
 		</div>
 	)
