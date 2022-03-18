@@ -50,7 +50,7 @@ export default function Contact() {
 						</div>
 						<input className="w-full mt-8" type="text" name="messageInput" id="messageInput" placeholder="Your message" />
 
-						{/* Add submit button */}
+						<button className="Primary mt-8" type="submit">Submit</button>
 
 					</div>
 					<div className="Contact-map relative m-auto">

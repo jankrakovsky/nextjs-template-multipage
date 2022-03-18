@@ -39,6 +39,9 @@ input {
 input::placeholder {
 	@apply Text_Gray
 }
+button.Primary {
+	@apply w-[170px] h-[48px] bg-primary-red text-white box-border rounded-[3px]
+}
 button.Dark_Primary {
 	@apply w-[170px] h-[48px] bg-white text-black border-2 border-solid border-[#2B2B2B] box-border rounded-[3px]
 }
