@@ -27,7 +27,7 @@ label {
 	@apply font-dm text-[16px] font-bold
 }
 .Text_Gray {
-	@apply font-dm text-[16px] text-black/50
+	@apply font-dm text-[16px] text-white/50
 }
 .Text_Small {
 	@apply font-dm text-[12px]
@@ -44,5 +44,11 @@ button.Primary {
 }
 button.Dark_Primary {
 	@apply w-[170px] h-[48px] bg-white text-black border-2 border-solid border-[#2B2B2B] box-border rounded-[3px]
+}
+.Footer-links li {
+	@apply py-1
+}
+.Footer-links li.Text {
+	@apply py-3
 }
 
