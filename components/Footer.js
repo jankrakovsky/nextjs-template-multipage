@@ -23,31 +23,30 @@ const Footer = () => {
 					</span>
 				</div>
 
-
 				<div className="Footer-links py-5 px-2 sm:px-10 lg:p-20 grid grid-cols-1 sm:grid-cols-3 gap-4">
 					<ul className="Footer-links">
 						<li className="Text">Lorem</li>
-						<li className="Text_Gray">Optio</li>
-						<li className="Text_Gray">Sapiente</li>
-						<li className="Text_Gray">Alias</li>
-						<li className="Text_Gray">Itaque</li>
-						<li className="Text_Gray">Dolore</li>
+						<li>Optio</li>
+						<li>Sapiente</li>
+						<li>Alias</li>
+						<li>Itaque</li>
+						<li>Dolore</li>
 					</ul>
 					<ul className="Footer-links">
 						<li className="Text">Lorem</li>
-						<li className="Text_Gray">Optio</li>
-						<li className="Text_Gray">Sapiente</li>
-						<li className="Text_Gray">Alias</li>
-						<li className="Text_Gray">Itaque</li>
-						<li className="Text_Gray">Dolore</li>
+						<li>Optio</li>
+						<li>Sapiente</li>
+						<li>Alias</li>
+						<li>Itaque</li>
+						<li>Dolore</li>
 					</ul>
 					<ul className="Footer-links">
 						<li className="Text">Lorem</li>
-						<li className="Text_Gray">Optio</li>
-						<li className="Text_Gray">Sapiente</li>
-						<li className="Text_Gray">Alias</li>
-						<li className="Text_Gray">Itaque</li>
-						<li className="Text_Gray">Dolore</li>
+						<li>Optio</li>
+						<li>Sapiente</li>
+						<li>Alias</li>
+						<li>Itaque</li>
+						<li>Dolore</li>
 					</ul>
 				</div>
 			</TwoColumns>

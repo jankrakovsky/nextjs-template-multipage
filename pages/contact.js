@@ -29,7 +29,7 @@ export default function Contact() {
 								</div>
 								<div className="grow-[3]">
 									<h4>Call us</h4>
-									<p className="Text_Gray">+1 234 567 89 00</p>
+									<p>+1 234 567 89 00</p>
 								</div>
 							</div>
 							<div className="w-full p-4 flex justify-around gap-4 border-gray-400 border-2 border-solid">
@@ -38,7 +38,7 @@ export default function Contact() {
 								</div>
 								<div className="grow-[3]">
 									<h4>Write us</h4>
-									<p className="Text">info@gmail.com</p>
+									<p>info@gmail.com</p>
 								</div>
 							</div>
 						</div>
@@ -51,7 +51,6 @@ export default function Contact() {
 						<input className="w-full mt-8" type="text" name="messageInput" id="messageInput" placeholder="Your message" />
 
 						<button className="Primary mt-8" type="submit">Submit</button>
-
 					</div>
 					<div className="Contact-map relative m-auto">
 						<Image src={contactMap} alt="" />
