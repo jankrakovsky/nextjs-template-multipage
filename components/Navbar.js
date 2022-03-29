@@ -2,7 +2,12 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const Navbar = () => {
-	const [showMenu, setShowMenu] = useState(true);
+	const [showMenu, setShowMenu] = useState("hidden");
+
+	const switchMenuState = () => {
+		setShowMenu(showMenu == "hidden" ? "flex" : "hidden")
+	};
+
 
 	return (
 		<div className="Navbar text-white bg-primary-flamingo">
@@ -11,9 +16,9 @@ const Navbar = () => {
 					<Link href="/">
 						<h3 className="cursor-pointer">LOGO</h3>
 					</Link>
-					<div className="Burger-menu w-[35px] h-[35px] right-[0px] top-[10px] absolute sm:hidden bg-black cursor-pointer"></div>
+					<div className="Burger-button w-[35px] h-[35px] right-[0px] top-[10px] absolute sm:hidden bg-black cursor-pointer" onClick={switchMenuState}></div>
 				</div>
-				<div className="flex flex-col sm:flex-row justify-center items-end sm:items-center gap-4">
+				<div className={`Navbar-center ${showMenu} sm:flex flex-col sm:flex-row justify-center items-end sm:items-center gap-4`}>
 					<Link href="/portfolio">
 						<p className="Text cursor-pointer">Portfolio</p>
 					</Link>
@@ -21,7 +26,7 @@ const Navbar = () => {
 						<p className="Text cursor-pointer">Contact</p>
 					</Link>
 				</div>
-				<div className="Navbar-right flex justify-end items-center">
+				<div className={`Navbar-right ${showMenu} sm:flex justify-end items-center`}>
 					<Link href="/">
 						<div className="Text px-12 py-3 border-[1px] border-white border-solid cursor-pointer">Sign up</div>
 					</Link>
