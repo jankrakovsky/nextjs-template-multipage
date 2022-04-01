@@ -32,10 +32,12 @@ export default function Portfolio() {
 				</TwoColumns>
 			</div>
 
-			<main className="Portfolio-main py-8 bg-white w-full xl:w-10/12 h-full m-auto p-2 grid lg:grid-cols-2 xl:grid-cols-3 justify-items-center gap-2">
-				{images.map((img) => (
-					<PortfolioPic img={img.img} title={img.title} text={img.text} />
-				))}
+			<main className="Portfolio-main grid justify-items-center">
+				<div className="px-2 py-8 columns-1 md:columns-2 xl:columns-3 gap-4">
+					{images.map((img) => (
+						<PortfolioPic img={img.img} title={img.title} text={img.text} />
+					))}
+				</div>
 			</main>
 		</div>
 	)
