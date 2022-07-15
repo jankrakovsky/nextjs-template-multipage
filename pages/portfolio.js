@@ -34,8 +34,8 @@ export default function Portfolio() {
 
 			<main className="Portfolio-main grid justify-items-center">
 				<div className="px-2 py-8 columns-1 md:columns-2 xl:columns-3 gap-4">
-					{images.map((img) => (
-						<PortfolioPic img={img.img} title={img.title} text={img.text} />
+					{images.map((img, index) => (
+						<PortfolioPic key={index} img={img.img} title={img.title} text={img.text} />
 					))}
 				</div>
 			</main>
