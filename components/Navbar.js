@@ -34,7 +34,7 @@ const Navbar = () => {
 				</div>
 				<div className={`Navbar-right px-6 ${showMenu} sm:flex justify-end items-center`}>
 					<Link href="/" passHref>
-						<div className="Text px-12 py-3 border-[1px] border-white border-solid cursor-pointer">Sign up</div>
+						<div className="Text px-12 py-3 hover:text-primary-flamingo hover:bg-white border-[1px] border-white border-solid cursor-pointer">Sign up</div>
 					</Link>
 				</div>
 
