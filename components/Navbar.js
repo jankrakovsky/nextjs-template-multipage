@@ -26,10 +26,10 @@ const Navbar = () => {
 				</div>
 				<div className={`Navbar-center px-6 ${showMenu} sm:flex flex-col sm:flex-row justify-center items-end sm:items-center gap-4`}>
 					<Link href="/portfolio" passHref>
-						<p className="Text cursor-pointer hover:border-b-2 hover:border-solid hover:border-white">Portfolio</p>
+						<p className="Text cursor-pointer border-b-2 border-solid border-transparent hover:border-white">Portfolio</p>
 					</Link>
 					<Link href="/contact" passHref>
-						<p className="Text cursor-pointer hover:border-b-2 hover:border-solid hover:border-white">Contact</p>
+						<p className="Text cursor-pointer border-b-2 border-solid border-transparent hover:border-white">Contact</p>
 					</Link>
 				</div>
 				<div className={`Navbar-right px-6 ${showMenu} sm:flex justify-end items-center`}>
